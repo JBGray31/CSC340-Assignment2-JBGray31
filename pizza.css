@@ -1,0 +1,79 @@
+﻿* {
+	box-sizing: border-box;
+}
+header, nav, main, footer {
+	display: block;
+}
+body {
+	background-image: url("pizzaLogoo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Verdana, Arial, sans-serif;
+	margin: 0%;
+}
+header {
+	color: #FFFFFF;
+}
+h1 {
+	line-height: 200%;
+	height: 80px;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+h2 {
+	line-height: 200%;
+	height: 70px;
+	margin-bottom: 10;
+}
+main {
+	color: #FFFFFF;
+	margin-left: 170px;
+	padding: 1px 20px;
+}
+nav {
+	font-weight: bold;
+	float: left;
+	background-color:#FF0000;
+	width: 100%;
+	padding: 15px 15px 15px;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #000000;
+}
+nav a:visited {
+	color: #000000;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+li {
+	display: inline;
+}
+.header img {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.header h1 {
+	position: relative;
+	top: 18px;
+	left: 10px;
+}
+.menu img {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.menu p {
+	position: relative;
+	top: 18px;
+	left: 50px;
+}
